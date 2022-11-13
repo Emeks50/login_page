@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <!-- Include CSS File Here -->
+    <link rel="stylesheet" href="login.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>Log in</h2>
+            <form id="form_id" method="post" name="myform">
+                <label for="username">Email :</label>
+                <input type="email" name="username" id="username" />
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" />
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember Me
+                  </label>
+                <span class="psw"> <a href="#">Forgot password?</a></span>
+                <input type="button" value="Login" id="submit" onclick="validate()" />
+            </form>
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
